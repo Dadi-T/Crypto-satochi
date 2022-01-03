@@ -15,6 +15,8 @@ module.exports = {
       fontFamily: {
         Baskervville:
           "Baskervville,-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
+        inter:
+          "Inter,-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
       },
     },
   },
