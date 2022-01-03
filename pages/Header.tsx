@@ -18,7 +18,7 @@ export default function Header() {
             View List
           </button>
         </div>
-        <div className="bg-[#000000] image-content relative">
+        <div className="bg-[#18191F] image-content relative">
           <div className="absolute user-2">
             <Image src="/User-2.svg" width={218.4} height={218.4} />
           </div>
