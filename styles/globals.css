@@ -61,4 +61,17 @@ a {
     background-repeat: no-repeat;
     object-fit: cover;
   }
+  .backgroundImage {
+    display: flex;
+    background: url("../public/5.png") no-repeat center;
+    height: 90vh;
+    background-size: cover;
+    /* background-attachment:fixed; */
+  }
+  .backgroundImage-tablet {
+    display: flex;
+    background: url("../public/5.png") no-repeat center;
+    height: 50vh;
+    background-size: cover;
+  }
 }
