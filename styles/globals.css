@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap");
+
 html,
 body {
   padding: 0;
@@ -13,4 +18,47 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@layer utilities {
+  .image-content {
+    width: 70%;
+    height: 100%;
+  }
+  .user-2 {
+    right: 10%;
+    top: 25%;
+  }
+  .monkeyLeft {
+    top: 35%;
+    left: -10%;
+  }
+  .Modestas {
+    top: 20%;
+    left: -5%;
+  }
+  .Confucius {
+    right: 0px;
+  }
+  .Jenelle {
+    right: 0px;
+    top: 50%;
+  }
+  .Godefroy {
+    right: 10%;
+    top: 70%;
+  }
+  .Josiah {
+    left: 20%;
+    top: 60%;
+  }
+  .Rufus {
+    bottom: 0;
+    left: 30%;
+  }
+  .background {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
 }
